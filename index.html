@@ -8,7 +8,32 @@
 <title>Mohit Mahida</title>
 </head>
 <body>
-<h1>Welcome to My Website</h1>
-<p>Hi this is Mohit Mahida.</p>
+
+  <!--Adding tab buttons-->
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('About', this, 'green')" id="defaultOpen">About</button>
+<button class="tablink" onclick="openPage('Feedback', this, 'blue')">Feedback</button>
+<button class="tablink" onclick="openPage('Contact', this, 'orange')">Contact</button>
+
+<!--Adding tab content-->
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About me</h3>
+  <p>Hi I am Mohit Mahida.</p>
+</div>
+
+<div id="Feedback" class="tabcontent">
+  <h3>Feedback</h3>
+  <p>Please leave your feedback.</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
 </body>
 </html>

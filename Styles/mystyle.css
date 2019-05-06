@@ -1,7 +1,9 @@
 /*Style Sheet For Webpage*/
 
 /*Styling webpage body*/
-body{
+body, html{
+  height: 100%;
+  margin: 0
   color: red;
   font-family: Arial;
 }
@@ -15,6 +17,39 @@ h1{
 p{
   text-align: center;
 }
+
+/************************Styling tabs: Start************************/
+.tablink{
+ background-color: #2c3840;
+ color: #e8a90e;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 14px 16px;
+ font-size: 17px;
+ width: 25%;
+}
+
+/*Adding hover effetc to tabs*/
+.tablink:hover{
+  color: #886308;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#About {background-color: green;}
+#Feedback {background-color: blue;}
+#Contact {background-color: orange;}
+/************************Styling tabs: end************************/
+
 
 /*Styling link*/
 a:link {
