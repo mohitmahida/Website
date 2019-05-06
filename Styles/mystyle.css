@@ -38,16 +38,28 @@ p{
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: block;
   display: none;
   padding: 100px 20px;
   height: 100%;
 }
 
-#Home {background-color: red;}
-#About {background-color: green;}
-#Feedback {background-color: blue;}
-#Contact {background-color: orange;}
+#Home {
+  background-color: white;
+  text-align: center;
+}
+#About {
+  background-color: white;
+  text-align: center;
+}
+#Feedback {
+  background-color: white;
+  text-align: center;
+}
+#Contact {
+  background-color: white;
+  text-align: center;
+}
 /************************Styling tabs: end************************/
 
 
